@@ -14,7 +14,7 @@ namespace VetClinicConsoleApp.Models
         public string Color { get; private set; }
         public Status Status { get; set; }
 
-        // Removed image string from constructor
+        
         public Dog(string name, DateTime birthday, string breed, string medicalHistory, double weight, string color)
         {
             Name = name;

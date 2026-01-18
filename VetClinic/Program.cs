@@ -12,7 +12,7 @@ namespace VetClinicConsoleApp
 
         static void Main(string[] args)
         {
-            // Seed data updated (removed image paths)
+            
             pets.Add(new Cat("Fluffy", DateTime.Now.AddYears(-2), "Persian", "Regular checkups", 4.5, "Golden", "Feather wand"));
             pets.Add(new Dog("Buddy", DateTime.Now.AddYears(-3), "Golden Retriever", "Vaccinated", 30.0, "Cream"));
 
@@ -101,7 +101,7 @@ namespace VetClinicConsoleApp
             string medicalHistory = GetValidString("Medical History", 10);
             string color = GetValidString("Color", 1);
             double weight = GetValidDouble("Weight (kg)", 0);
-            // Image input removed here
+           
             DateTime birthday = GetValidDate("Birthday (yyyy-mm-dd)");
 
             if (type == "cat")
